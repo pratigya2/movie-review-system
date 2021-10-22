@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>admin</class>
+ <widget class="QDialog" name="admin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1310</width>
+    <height>780</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1300</width>
+     <height>771</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../Downloads/image (7).png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>100</y>
+     <width>391</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial Black</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton {
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 30px;
+	color: rgb(184, 8, 31);
+  margin: 4px 2px;
+  background-color: transparent; 
+  
+ }</string>
+   </property>
+   <property name="text">
+    <string>WELCOME ADMIN</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/admin.png</normaloff>:/new/prefix1/admin.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>85</width>
+     <height>65</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>260</y>
+     <width>241</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_2 {
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+	color: white;
+  margin: 4px 2px;
+  background-color: transparent; 
+  
+ }
+QPushButton#pushButton_2:hover{
+background-color:transparent;
+color:rgb(232, 72, 19);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>ADD MOVIES</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (9).png</normaloff>:/new/prefix1/circle-cropped (9).png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>350</y>
+     <width>211</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_3{
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+	color: white;
+  margin: 4px 2px;
+  background-color: transparent; 
+  
+ }
+QPushButton#pushButton_3:hover{
+background-color:transparent;
+color:rgb(232, 72, 19);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>DELETE MOVIES</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (10).png</normaloff>:/new/prefix1/circle-cropped (10).png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>430</y>
+     <width>201</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_4 {
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+	color: white;
+  margin: 4px 2px;
+  background-color: transparent; 
+  
+ }
+QPushButton#pushButton_4:hover{
+background-color:transparent;
+color:rgb(232, 72, 19);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>VIEW MOVIES</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (11).png</normaloff>:/new/prefix1/circle-cropped (11).png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>510</y>
+     <width>211</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_5{
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+	color: white;
+  margin: 4px 2px;
+  background-color: transparent; 
+  
+ }
+QPushButton#pushButton_5:hover{
+background-color:transparent;
+color:rgb(232, 72, 19);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>VIEW USERS</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (12).png</normaloff>:/new/prefix1/circle-cropped (12).png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>270</y>
+     <width>241</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_6{
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+	color: white;
+  margin: 4px 2px;
+  background-color: transparent; 
+  
+ }
+QPushButton#pushButton_6:hover{
+background-color:transparent;
+color:rgb(232, 72, 19);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>ADD SERIES</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (9).png</normaloff>:/new/prefix1/circle-cropped (9).png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>360</y>
+     <width>211</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_7{
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+	color: white;
+  margin: 4px 2px;
+  background-color: transparent; 
+  
+ }
+QPushButton#pushButton_7:hover{
+background-color:transparent;
+color:rgb(232, 72, 19);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>DELETE SERIES</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (10).png</normaloff>:/new/prefix1/circle-cropped (10).png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>440</y>
+     <width>201</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_8{
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+	color: white;
+  margin: 4px 2px;
+  background-color: transparent; 
+  
+ }
+QPushButton#pushButton_8:hover{
+background-color:transparent;
+color:rgb(232, 72, 19);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>VIEW SERIES</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (11).png</normaloff>:/new/prefix1/circle-cropped (11).png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

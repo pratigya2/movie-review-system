@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>admin_adding</class>
+ <widget class="QDialog" name="admin_adding">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1310</width>
+    <height>780</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1300</width>
+     <height>771</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../Downloads/image (7).png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>100</y>
+     <width>191</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Rockwell</family>
+     <pointsize>-1</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton{
+	
+	color:white;
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+  margin: 4px 2px;
+  background-color: transparent; 
+	
+
+ }
+</string>
+   </property>
+   <property name="text">
+    <string>ENTER MOVIE NAME</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>110</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MV Boli</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit#name{
+	background-color: white;
+border:2px solid rgb(190, 190, 0);
+border-radius:10px;
+  
+
+
+	color: rgb(216, 27, 14);
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>NAME</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="image">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>300</y>
+     <width>411</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>180</y>
+     <width>191</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Rockwell</family>
+     <pointsize>-1</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_2{
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+  margin: 4px 2px;
+  background-color: transparent; 
+	color: white;
+ }
+</string>
+   </property>
+   <property name="text">
+    <string>ENTER RELEASED DATE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>260</y>
+     <width>191</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Rockwell</family>
+     <pointsize>-1</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_3{
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+  margin: 4px 2px;
+  background-color: transparent; 
+	
+color: white;
+ }
+</string>
+   </property>
+   <property name="text">
+    <string>ENTER MOVIE NAME</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>470</y>
+     <width>221</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Rockwell</family>
+     <pointsize>-1</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_4{
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+  margin: 4px 2px;
+  background-color: transparent; 
+	
+	color: white
+ }
+</string>
+   </property>
+   <property name="text">
+    <string>ENTER MEMBERS OF FILM</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>580</y>
+     <width>191</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Rockwell</family>
+     <pointsize>-1</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_5{
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+  margin: 4px 2px;
+  background-color: transparent; 
+	color:white;
+ }
+</string>
+   </property>
+   <property name="text">
+    <string>ENTER YOUR RATING</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="date">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>190</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MV Boli</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit#date{
+background-color: white;
+
+border:2px solid rgb(190, 190, 0);
+border-radius:10px;
+	color: rgb(216, 27, 14);
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>DATE</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="summary">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>260</y>
+     <width>361</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MV Boli</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit#summary{
+background-color: white;
+border:2px solid rgb(190, 190, 0);
+border-radius:10px;
+	color: rgb(216, 27, 14);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>SUMMARY</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="cast_members">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>460</y>
+     <width>201</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MV Boli</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit#cast_members{
+	background-color:white;
+border:2px solid rgb(190, 190, 0);
+border-radius:10px;
+	color: rgb(216, 27, 14);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>CAST MEMBERS</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ratings">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>590</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MV Boli</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit#ratings{
+	background-color: white;
+border:2px solid rgb(190, 190, 0);
+border-radius:10px;
+	color:rgb(216, 27, 14);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>RATINGS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>950</x>
+     <y>610</y>
+     <width>261</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ravie</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_6{
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 20px;
+  margin: 4px 2px;
+  background-color: transparent; 
+ color:white;
+ 
+
+}
+
+QPushButton#pushButton_6:hover {
+  background-color: transparent;
+ 
+
+	color: rgb(89, 255, 12);
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>CHOOSE IMAGE</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../Downloads/circle-cropped (13).png</normaloff>../../../Downloads/circle-cropped (13).png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>45</width>
+     <height>45</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>60</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>language</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="language">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>70</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>20</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>genre</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="genre">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>20</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="cast_members_2">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>460</y>
+     <width>201</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MV Boli</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit#cast_members_2{
+	background-color:white;
+border:2px solid rgb(190, 190, 0);
+border-radius:10px;
+	color: rgb(216, 27, 14);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>DIRECTOR NAME</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="trailer">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>640</y>
+     <width>511</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MV Boli</family>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit#cast_members_3{
+	background-color:white;
+border:2px solid rgb(190, 190, 0);
+border-radius:10px;
+	color: rgb(216, 27, 14);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>TRAILER LINK</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

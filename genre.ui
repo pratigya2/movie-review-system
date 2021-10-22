@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>genre</class>
+ <widget class="QDialog" name="genre">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1310</width>
+    <height>780</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1300</width>
+     <height>771</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>image (7).png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="romantic">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>241</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Calligraphy</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton#romantic{
+padding: 4px 8px;
+  text-align: left;
+  font-size: 20px;
+  margin: 4px 2px;
+  background-color: transparent;  
+	color: rgb(0, 249, 249);
+ }
+QPushButton#romantic:hover{
+background-color:transparent;
+	color: rgb(245, 245, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>ROMANTIC</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (17).png</normaloff>:/new/prefix1/circle-cropped (17).png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>111</width>
+     <height>80</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="horror">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>0</y>
+     <width>241</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Calligraphy</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton#horror{
+padding: 4px 8px;
+  text-align: left;
+  font-size: 20px;
+  margin: 4px 2px;
+  background-color: transparent;  
+	color: rgb(0, 249, 249);
+ }
+QPushButton#horror:hover{
+background-color:transparent;
+	color: rgb(245, 245, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>HORROR</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (18).png</normaloff>:/new/prefix1/circle-cropped (18).png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>111</width>
+     <height>80</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="drama">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>90</y>
+     <width>241</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Calligraphy</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton#drama{
+padding: 4px 8px;
+  text-align: left;
+  font-size: 20px;
+  margin: 4px 2px;
+  background-color: transparent;  
+	color: rgb(0, 249, 249);
+ }
+QPushButton#drama:hover{
+background-color:transparent;
+	color: rgb(245, 245, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>DRAMA</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (19).png</normaloff>:/new/prefix1/circle-cropped (19).png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>111</width>
+     <height>80</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="scifiction">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>0</y>
+     <width>251</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Calligraphy</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton#scifiction{
+padding: 4px 8px;
+  text-align: left;
+  font-size: 20px;
+  margin: 4px 2px;
+  background-color: transparent;  
+	color: rgb(0, 249, 249);
+ }
+QPushButton#scifiction:hover{
+background-color:transparent;
+	color: rgb(245, 245, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>SCI-FICTION</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (20).png</normaloff>:/new/prefix1/circle-cropped (20).png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>111</width>
+     <height>80</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="comedy">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>90</y>
+     <width>241</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Calligraphy</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton#comedy{
+padding: 4px 8px;
+  text-align: left;
+  font-size: 20px;
+  margin: 4px 2px;
+  background-color: transparent;  
+	color: rgb(0, 249, 249);
+ }
+QPushButton#comedy:hover{
+background-color:transparent;
+	color: rgb(245, 245, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>COMEDY</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (21).png</normaloff>:/new/prefix1/circle-cropped (21).png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>111</width>
+     <height>80</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="action">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>90</y>
+     <width>241</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Calligraphy</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton#action{
+padding: 4px 8px;
+  text-align: left;
+  font-size: 20px;
+  margin: 4px 2px;
+  background-color: transparent;  
+	color: rgb(0, 249, 249);
+ }
+QPushButton#action:hover{
+background-color:transparent;
+	color: rgb(245, 245, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>ACTION</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (22).png</normaloff>:/new/prefix1/circle-cropped (22).png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>111</width>
+     <height>80</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>201</y>
+     <width>1291</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Calligraphy</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableView#tableView{
+background-color:transparent;
+font-size:18px;
+text-align:center;
+color:white;
+border-color:transparent;
+	selection-color: rgb(85, 170, 255);
+	border-top-color: rgb(255, 85, 127);
+	border-right-color: rgb(85, 170, 255);
+	border-color: rgb(85, 170, 255);
+gridline-color: rgb(170, 0, 255);
+}
+QTableView#tableView:item:active{
+background-color:yellow;
+}
+QTableView#tableView:item:visited{
+background-color:golden;
+}
+QTableView#tableView:item:hover{
+	color: rgb(149, 0, 0);
+	background-color: rgb(170, 255, 127);
+}
+
+QScrollBar:vertical {border: none;background-color: #282828;width: 10px;margin: 25px 0 0px 0;}
+QScrollBar::handle:vertical{border-radius: 4px;border-color: rgba(85, 85, 127, 75%);border-width: 1px; border-style: solid; background-color: rgba(85, 85, 127, 75%); min-height: 25px;}
+QScrollBar::add-line:vertical{width: 0px; height: 0px;}
+QScrollBar::sub-line:vertical{width: 0px; height: 0px;}
+QScrollBar::add-page:vertical{background-color: transparent;}
+QScrollBar::sub-page:vertical{background-color: transparent;}
+
+
+
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="username">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>20</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

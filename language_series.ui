@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>language_series</class>
+ <widget class="QDialog" name="language_series">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1310</width>
+    <height>780</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1300</width>
+     <height>771</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>image (7).png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="nepali">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>201</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Calligraphy</family>
+     <pointsize>-1</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#nepali{
+padding: 4px 8px;
+  text-align: left;
+  font-size: 20px;
+  margin: 4px 2px;
+  background-color: transparent;  
+	color: rgb(0, 249, 249);
+ }
+QPushButton#nepali:hover{
+background-color:transparent;
+	color: rgb(245, 245, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>NEPALI</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/nepali.jpeg</normaloff>:/new/prefix1/nepali.jpeg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>80</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="thai">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>110</y>
+     <width>201</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Calligraphy</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#thai{
+padding: 4px 8px;
+  text-align: left;
+  font-size: 20px;
+  margin: 4px 2px;
+  background-color: transparent;  
+	color: rgb(0, 249, 249);
+ }
+QPushButton#thai:hover{
+background-color:transparent;
+	color: rgb(245, 245, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>THAI</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/thai.jpeg</normaloff>:/new/prefix1/thai.jpeg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>80</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="korean">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>30</y>
+     <width>221</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Calligraphy</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#korean{
+padding: 4px 8px;
+  text-align: left;
+  font-size: 20px;
+  margin: 4px 2px;
+  background-color: transparent;  
+	color: rgb(0, 249, 249);
+ }
+QPushButton#korean:hover{
+background-color:transparent;
+	color: rgb(245, 245, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>KOREAN</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/korea.jpeg</normaloff>:/new/prefix1/korea.jpeg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>80</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="hindi">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>110</y>
+     <width>201</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Calligraphy</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#hindi{
+padding: 4px 8px;
+  text-align: left;
+  font-size: 20px;
+  margin: 4px 2px;
+  background-color: transparent;  
+	color: rgb(0, 249, 249);
+ }
+QPushButton#hindi:hover{
+background-color:transparent;
+	color: rgb(245, 245, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>HINDI</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/india.jpeg</normaloff>:/new/prefix1/india.jpeg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>80</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="english">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>30</y>
+     <width>221</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Calligraphy</family>
+     <pointsize>-1</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#english{
+padding: 4px 8px;
+  text-align: left;
+  font-size: 20px;
+  margin: 4px 2px;
+  background-color: transparent;  
+	color: rgb(0, 249, 249);
+ }
+QPushButton#english:hover{
+background-color:transparent;
+	color: rgb(245, 245, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>ENGLISH</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/usa.jpeg</normaloff>:/new/prefix1/usa.jpeg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>80</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="chinese">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>120</y>
+     <width>222</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Calligraphy</family>
+     <pointsize>-1</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#chinese{
+padding: 4px 8px;
+  text-align: left;
+  font-size: 20px;
+  margin: 4px 2px;
+  background-color: transparent;  
+	color: rgb(0, 249, 249);
+ }
+QPushButton#chinese:hover{
+background-color:transparent;
+	color: rgb(245, 245, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>CHINESE</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/china.png</normaloff>:/new/prefix1/china.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>80</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="turkish">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>30</y>
+     <width>221</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Calligraphy</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#turkish{
+padding: 4px 8px;
+  text-align: left;
+  font-size: 20px;
+  margin: 4px 2px;
+  background-color: transparent;  
+	color: rgb(0, 249, 249);
+ }
+QPushButton#turkish:hover{
+background-color:transparent;
+	color: rgb(245, 245, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>TURKISH</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/turkey.jpg</normaloff>:/new/prefix1/turkey.jpg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>80</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="japanese">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>120</y>
+     <width>241</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Calligraphy</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#japanese{
+padding: 4px 8px;
+  text-align: left;
+  font-size: 20px;
+  margin: 4px 2px;
+  background-color: transparent;  
+	color: rgb(0, 249, 249);
+ }
+QPushButton#japanese:hover{
+background-color:transparent;
+	color: rgb(245, 245, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>JAPANESE</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/japan.jpeg</normaloff>:/new/prefix1/japan.jpeg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>80</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>201</y>
+     <width>1301</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Calligraphy</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableView#tableView{
+background-color:transparent;
+font-size:18px;
+text-align:center;
+color:white;
+border-color:transparent;
+	selection-color: rgb(85, 170, 255);
+	border-top-color: rgb(255, 85, 127);
+	border-right-color: rgb(85, 170, 255);
+	border-color: rgb(85, 170, 255);
+gridline-color: rgb(170, 0, 255);
+}
+QTableView#tableView:item:active{
+background-color:yellow;
+}
+QTableView#tableView:item:visited{
+background-color:golden;
+}
+QTableView#tableView:item:hover{
+	color: rgb(149, 0, 0);
+	background-color: rgb(170, 255, 127);
+}
+
+QScrollBar:vertical {border: none;background-color: #282828;width: 10px;margin: 25px 0 0px 0;}
+QScrollBar::handle:vertical{border-radius: 4px;border-color: rgba(85, 85, 127, 75%);border-width: 1px; border-style: solid; background-color: rgba(85, 85, 127, 75%); min-height: 25px;}
+QScrollBar::add-line:vertical{width: 0px; height: 0px;}
+QScrollBar::sub-line:vertical{width: 0px; height: 0px;}
+QScrollBar::add-page:vertical{background-color: transparent;}
+QScrollBar::sub-page:vertical{background-color: transparent;}
+
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="username">
+   <property name="geometry">
+    <rect>
+     <x>956</x>
+     <y>90</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,56 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>admin.png</file>
+        <file>circle-cropped (9).png</file>
+        <file>circle-cropped (10).png</file>
+        <file>china.png</file>
+        <file>circle-cropped (6).png</file>
+        <file>circle-cropped (7).png</file>
+        <file>circle-cropped (8).png</file>
+        <file>circle-cropped (11).png</file>
+        <file>circle-cropped (12).png</file>
+        <file>circle-cropped (13).png</file>
+        <file>circle-cropped (15).png</file>
+        <file>circle-cropped (16).png</file>
+        <file>circle-cropped (17).png</file>
+        <file>circle-cropped (18).png</file>
+        <file>circle-cropped (19).png</file>
+        <file>circle-cropped (20).png</file>
+        <file>circle-cropped (21).png</file>
+        <file>circle-cropped (22).png</file>
+        <file>circle-cropped (23).png</file>
+        <file>imgonline-com-ua-shape-EVHgZty5EasFLq.png</file>
+        <file>imgonline-com-ua-shape-N6h4pB3vkwR9zPY.png</file>
+        <file>imgonline-com-ua-shape-WfdnljkZdE.png</file>
+        <file>movies_folder_icon_.png</file>
+        <file>nepali.jpeg</file>
+        <file>register icon.png</file>
+        <file>series.png</file>
+        <file>usa.jpeg</file>
+        <file>../../../Documents/New folder/qtcode/india.jpeg</file>
+        <file>../../../Documents/New folder/qtcode/japan.jpeg</file>
+        <file>../../../Documents/New folder/qtcode/korea.jpeg</file>
+        <file>../../../Documents/New folder/qtcode/thai.jpeg</file>
+        <file>../../../Documents/New folder/qtcode/turkey.jpg</file>
+        <file>india.jpeg</file>
+        <file>japan.jpeg</file>
+        <file>korea.jpeg</file>
+        <file>thai.jpeg</file>
+        <file>turkey.jpg</file>
+        <file>delete.jpeg</file>
+        <file>delete-modified.png</file>
+        <file>blurr.jpeg</file>
+        <file>finalfinallogo (2).PNG</file>
+        <file>logo.PNG</file>
+        <file>popcorn.png</file>
+        <file>2593884.png</file>
+        <file>1024px-Ireland_film_clapperboard.svg.png</file>
+        <file>reel.png</file>
+        <file>R.png</file>
+        <file>popcorn-img.png</file>
+        <file>icons8-movie-64.png</file>
+        <file>finalfinallogo.png</file>
+        <file>../../MicrosoftTeams-image (70).png</file>
+    </qresource>
+    <qresource lang="english" prefix="/icons"/>
+</RCC>

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>series_delete</class>
+ <widget class="QDialog" name="series_delete">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1310</width>
+    <height>780</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1300</width>
+     <height>771</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>image (7).png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="action">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>140</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Terminal</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#action {
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+  margin: 4px 2px;
+  background-color: transparent; 
+  color:  white;
+ }
+QPushButton#action:hover{
+background-color:transparent;
+	color: rgb(255, 170, 127);
+}</string>
+   </property>
+   <property name="text">
+    <string>ACTION</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>501</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#label_2{
+background-color:transparent;
+color:white;
+font-size:20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>WHICH GENRE MOVIE YOU WANT TO DELETE?</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="romantic">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>190</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Terminal</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#romantic
+ {
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+  margin: 4px 2px;
+  background-color: transparent; 
+  color:  white;
+ }
+QPushButton#romantic:hover{
+background-color:transparent;
+	color: rgb(255, 170, 127);
+}</string>
+   </property>
+   <property name="text">
+    <string>ROMANTIC</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="comedy">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>240</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Terminal</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#comedy {
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+  margin: 4px 2px;
+  background-color: transparent; 
+  color:  white;
+ }
+QPushButton#comedy:hover{
+background-color:transparent;
+	color: rgb(255, 170, 127);
+}</string>
+   </property>
+   <property name="text">
+    <string>COMEDY</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="horror">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>290</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Terminal</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#horror {
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+  margin: 4px 2px;
+  background-color: transparent; 
+  color:  white;
+ }
+QPushButton#horror:hover{
+background-color:transparent;
+	color: rgb(255, 170, 127);
+}</string>
+   </property>
+   <property name="text">
+    <string>HORROR</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="drama">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>340</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Terminal</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#drama {
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+  margin: 4px 2px;
+  background-color: transparent; 
+  color:  white;
+ }
+QPushButton#drama:hover{
+background-color:transparent;
+	color: rgb(255, 170, 127);
+}</string>
+   </property>
+   <property name="text">
+    <string>DRAMA</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="scifiction">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>390</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Terminal</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#scifiction {
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+  margin: 4px 2px;
+  background-color: transparent; 
+  color:  white;
+ }
+QPushButton#scifiction:hover{
+background-color:transparent;
+	color: rgb(255, 170, 127);
+}</string>
+   </property>
+   <property name="text">
+    <string>SCI-FICTION</string>
+   </property>
+  </widget>
+  <widget class="QListView" name="listView">
+   <property name="geometry">
+    <rect>
+     <x>215</x>
+     <y>131</y>
+     <width>551</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Script</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QListView#listView{
+background-color:transparent;
+color:white;
+font-size:15px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>570</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#label_3{
+background-color:transparent;
+color:white;
+font-size:20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>ENTER MOVIENAME</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>570</y>
+     <width>301</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit#lineEdit{
+text-align:center;
+background-color:transparent;
+color:white;
+border:none;
+border-bottom:2px solid  rgb(222, 222, 222);
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>MOVIENAME</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="delete_2">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>560</y>
+     <width>171</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Cooper Black</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#delete_2 {
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 20px;
+  margin: 4px 2px;
+  background-color: transparent; 
+  color:  rgb(255, 123, 35);
+ }
+QPushButton#delete_2:hover{
+background-color:transparent;
+color: rgb(0, 255, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>DELETE</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/delete-modified.png</normaloff>:/new/prefix1/delete-modified.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>80</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>
+

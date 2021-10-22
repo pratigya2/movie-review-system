@@ -1,0 +1,52 @@
+1. What is C.C(Cinephile Choose)?
+ It is a group project made by four students of Computer Engineering in Institute of Engineering, Tribhuvan University, Nepal. It is an attempt to make a movie review system on the basis of local needs by being inspired from top sites like IMDb and Rotten Tomatoes. It is made under C++ programming language with Qt framework.:
+
+
+2. Is this free to use?
+ This is fully free to use under open source version of Qt. As this project is not made with visualizing profit or monetizing it, this app is completely free to use by the users.: 
+
+
+3. How can I access my information?
+ Information regarding the user can be accessed by clicking the name of the user's own profile name which will show full history and information given by the user along with movies watched and rated.:
+
+
+4. Can I not use the app without logging in?
+No, unfortunately, you cannot use this app without signing in as it will be of no use as you won't be able to rate a movie or give any kind of review. Also, making sure the user is signed in will discard the prevalence of fake users and make the application more authentic.:
+
+ 
+​5. Are my data being shared with other third parties?
+We can assure you the data provided by the users are not shared with any kind of third parties. They can use this application with full confidence of having their data confidential.:
+
+
+6. Is my password encrypted?
+Password is completely encrypted with an algorithm modified by our coder's team on their own. The difficulty to break the encryption is almost null.:
+
+
+7. How to view movies?
+Movies can be viewed by going to the link under the name Movies in the home window. Movies with specific genre can be displayed as per the interest of the users as well.:
+
+
+8. How are movies added?
+Movies are added based on the popularity and demand as per the users. Movies that do not violate the moral values and hamper the well being of the society are added with no hesitation.:
+
+
+9. What language movies and shows can be expected?
+Movies and shows of any languages and genre are going to be added as per the demand of users. There is absolutely no biasness in terms of languages or genre for any movies or shows.:
+
+
+10. How are reviews classified?
+Reviews are not classified and are shown as they are. We believe in full transparency and there wont be any manipulation of reviews in any way.:
+
+
+11. Are all reviews and ratings counted?
+Yes, every ratings given by every user is counted while displaying the final rating of a certain movie or a TV show. It may take time to load them in the database after getting a lot of users, but we assure the importance of each single rating.:
+
+
+12. Can we rate in terms of genre too?
+:
+
+
+13. Is there a word limit for review?
+As of now, there are no such limite to the reviews but we encourage the users to make their review short and meaningful so that every other readers can read them in efficient manner.:
+
+ 

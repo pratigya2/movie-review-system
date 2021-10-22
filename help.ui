@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>help</class>
+ <widget class="QDialog" name="help">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1310</width>
+    <height>780</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>-10</y>
+     <width>1300</width>
+     <height>771</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS PGothic</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../Downloads/image (6).png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>680</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ravie</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton{
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 20px;
+  margin: 4px 2px;
+  background-color: transparent; 
+ color:white;
+ 
+
+}
+
+QPushButton#pushButton:hover {
+  background-color: transparent;
+ 
+
+	color: rgb(89, 255, 12);
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>NEXT</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>circle-cropped (7).png</normaloff>circle-cropped (7).png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>35</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>120</y>
+     <width>271</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Terminal</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_2 {
+  padding: 4px 8px;
+  text-align: center;
+  font-size: 15px;
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ 
+
+}
+
+QPushButton#pushButton_2:hover {
+background-color:transparent;
+
+	color: rgb(252, 255, 97);
+}</string>
+   </property>
+   <property name="text">
+    <string>GENERAL INFORMATION</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>110</y>
+     <width>191</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Terminal</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_3{
+  padding: 4px 8px;
+  text-align: center;
+  font-size: 15px;
+
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ 
+
+}
+
+QPushButton#pushButton_3:hover {
+background-color:transparent;
+color: rgb(252, 255, 97);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>SIGNUP/LOGIN</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>440</y>
+     <width>191</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Terminal</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_4 {
+  padding: 4px 8px;
+  text-align: center;
+  font-size: 15px;
+
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ 
+
+}
+
+QPushButton#pushButton_4:hover {
+background-color:transparent;
+color: rgb(252, 255, 97);
+}</string>
+   </property>
+   <property name="text">
+    <string>VIEW MOVIES</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>440</y>
+     <width>271</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Terminal</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_5 {
+  padding: 4px 8px;
+  text-align: center;
+  font-size: 15px;
+
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ 
+
+}
+
+QPushButton#pushButton_5:hover {
+background-color:transparent;
+color: rgb(252, 255, 97);
+}</string>
+   </property>
+   <property name="text">
+    <string>REVIEWS AND RATINGS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>170</y>
+     <width>271</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_6 {
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ 
+
+}
+
+QPushButton#pushButton_6:hover {
+background-color:transparent;
+color: rgb(252, 255, 97);
+}</string>
+   </property>
+   <property name="text">
+    <string>What is CC&quot;Cinephile Choose&quot;?</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (6).png</normaloff>:/new/prefix1/circle-cropped (6).png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>220</y>
+     <width>271</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_7 {
+  padding: 4px 8px;
+  text-align: left;
+
+  font-size: 15px;
+
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ 
+
+}
+
+QPushButton#pushButton_7:hover {
+background-color:transparent;
+color: rgb(252, 255, 97);
+}</string>
+   </property>
+   <property name="text">
+    <string>Is this free to use?</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (6).png</normaloff>:/new/prefix1/circle-cropped (6).png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>270</y>
+     <width>271</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_8 {
+  padding: 4px 8px;
+  text-align: left;
+
+  font-size: 15px;
+
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ 
+
+}
+
+QPushButton#pushButton_8:hover {
+background-color:transparent;
+color: rgb(252, 255, 97);
+}</string>
+   </property>
+   <property name="text">
+    <string>How can i access my information?</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (6).png</normaloff>:/new/prefix1/circle-cropped (6).png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_10">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>490</y>
+     <width>271</width>
+     <height>47</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_10 {
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ 
+
+}
+
+QPushButton#pushButton_10:hover {
+background-color:transparent;
+color: rgb(252, 255, 97);
+}</string>
+   </property>
+   <property name="text">
+    <string>How to view movies?</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (6).png</normaloff>:/new/prefix1/circle-cropped (6).png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_11">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>540</y>
+     <width>271</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_11{
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ 
+
+}
+
+QPushButton#pushButton_11:hover {
+background-color:transparent;
+color: rgb(252, 255, 97);
+}</string>
+   </property>
+   <property name="text">
+    <string>How are movies added?</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (6).png</normaloff>:/new/prefix1/circle-cropped (6).png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_12">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>590</y>
+     <width>391</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_12 {
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ 
+
+}
+
+QPushButton#pushButton_12:hover {
+background-color:transparent;
+color: rgb(252, 255, 97);
+}</string>
+   </property>
+   <property name="text">
+    <string>What language movies and shows can be expected?</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (6).png</normaloff>:/new/prefix1/circle-cropped (6).png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_14">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>160</y>
+     <width>311</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_14 {
+  padding: 4px 8px;
+  text-align: center;
+  font-size: 15px;
+
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ 
+
+}
+
+QPushButton#pushButton_14:hover {
+background-color:transparent;
+color: rgb(252, 255, 97);
+}</string>
+   </property>
+   <property name="text">
+    <string>Can I not use the app without logging in?</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (6).png</normaloff>:/new/prefix1/circle-cropped (6).png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_15">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>210</y>
+     <width>371</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_15 {
+  padding: 4px 8px;
+  text-align: center;
+  font-size: 15px;
+
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ 
+
+}
+
+QPushButton#pushButton_15:hover {
+background-color:transparent;
+color: rgb(252, 255, 97);
+}</string>
+   </property>
+   <property name="text">
+    <string>Are my data being shared with other third parties?</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (6).png</normaloff>:/new/prefix1/circle-cropped (6).png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_16">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>260</y>
+     <width>271</width>
+     <height>47</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_16 {
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ 
+
+}
+
+QPushButton#pushButton_16:hover {
+background-color:transparent;
+color: rgb(252, 255, 97);
+}</string>
+   </property>
+   <property name="text">
+    <string>Is my password encrypted?</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (6).png</normaloff>:/new/prefix1/circle-cropped (6).png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_17">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>640</y>
+     <width>281</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_17 {
+  padding: 4px 8px;
+  text-align: left;
+
+  font-size: 15px;
+
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ 
+
+}
+
+QPushButton#pushButton_17:hover {
+background-color:transparent;
+color: rgb(252, 255, 97);
+}</string>
+   </property>
+   <property name="text">
+    <string>Is there a word limit for review?</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (6).png</normaloff>:/new/prefix1/circle-cropped (6).png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_18">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>490</y>
+     <width>271</width>
+     <height>47</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_18 {
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ 
+
+}
+
+QPushButton#pushButton_18:hover {
+background-color:transparent;
+color: rgb(252, 255, 97);
+}</string>
+   </property>
+   <property name="text">
+    <string>How are reviews classified?</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (6).png</normaloff>:/new/prefix1/circle-cropped (6).png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_19">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>540</y>
+     <width>291</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_19 {
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ 
+
+}
+
+QPushButton#pushButton_19:hover {
+background-color:transparent;
+color: rgb(252, 255, 97);
+}</string>
+   </property>
+   <property name="text">
+    <string>Are all reviews and ratings counted?</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (6).png</normaloff>:/new/prefix1/circle-cropped (6).png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_20">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>590</y>
+     <width>281</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_20{
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ 
+
+}
+
+QPushButton#pushButton_20:hover {
+background-color:transparent;
+color: rgb(252, 255, 97);
+}</string>
+   </property>
+   <property name="text">
+    <string>Can we rate in terms of genre too?</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (6).png</normaloff>:/new/prefix1/circle-cropped (6).png</iconset>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>
